@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <form autocomplete="off" id="form" action="#" method="get" onsubmit="return validate()">
+            <h1>Login</h1>
+            <span id="error"></span>
+            <div class="main">
+                <div class="covera">
+                    <div class="ipa">
+                        <input type="text" name="email" placeholder="UserName">
+                    </div>
+                </div>
+
+                <div class="coverb">
+                    <div class="ipb">
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="coverc">
+                    <div class="ipc">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <label for=""><input type="checkbox" name="Rememberme"> Remember</label>
+            <a class="forgot" href="#">Forgot</a>
+            <a href="#">Join Us!</a>
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
